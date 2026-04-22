@@ -241,7 +241,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **Vishal Kumar**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Vishalkumarjaiswal16-181717?style=flat-square&logo=github)](https://github.com/Vishalkumarjaiswal16)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishal%20Kumar-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/vishalkumarjaiswal16)
+
 
 ---
 
