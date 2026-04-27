@@ -44,23 +44,6 @@ def get_progress():
     data = [dict(row) for row in cur.fetchall()]
     return {"data": data}
 
-@app.route('/students', methods=['GET'])
-def get_students():
-    cur = get_db().cursor()
-    cur.execute("SELECT * FROM Students")
-    data = cur.fetchall()
-
-    students = []
-    for row in data:
-        students.append({
-            "id": row['student_id'],
-            "name": row['name'],
-            "email": row['email'],
-            "age": row['age']
-        })
-
-    return {"data": students}
-
 @app.route('/add-student', methods=['POST'])
 def add_student():
     data = request.json
